@@ -1,4 +1,4 @@
-package com.dilshanpathirage.portfolio.DilshanPathiragePortfolio.mail;
+package com.dilshanpathirage.portfolio.DilshanPathiragePortfolio;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +21,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/", "**", "/css/**",
                                 "/js/**","/images/**","/fonts/**").permitAll()
-                        .requestMatchers(HttpMethod.POST,"/send-mail/**").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/send-mail/**").permitAll()
                         .anyRequest().authenticated()
                 );
         return http.build();

@@ -1,4 +1,4 @@
-package com.dilshanpathirage.portfolio.DilshanPathiragePortfolio.mail;
+package com.dilshanpathirage.portfolio.DilshanPathiragePortfolio;
 
 import jakarta.mail.internet.MimeMessage;
 import org.springframework.beans.factory.annotation.Autowired;

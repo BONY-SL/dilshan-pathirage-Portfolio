@@ -12,7 +12,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
         description: document.getElementById('message').value
     };
 
-    fetch('http://localhost:8080/send-email/post', {
+    fetch('/send-email/post', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
