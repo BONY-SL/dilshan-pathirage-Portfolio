@@ -1,4 +1,4 @@
-package com.dilshanpathirage.portfolio.DilshanPathiragePortfolio;
+package com.dilshanpathirage.portfolio.DilshanPathiragePortfolio.mail;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

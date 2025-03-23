@@ -555,10 +555,10 @@ strong {
 
 
 .featured-numbers {
-  font-size: var(--h1-font-size);
-  line-height: normal;
-  display: block;
+  font-size: 24px; /* Adjust as needed */
+  font-weight: bold;
 }
+
 
 .featured-text {
   color: var(--secondary-color);
